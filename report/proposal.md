@@ -18,6 +18,6 @@ This could include the major timeline and milestones of your project as well as 
 Google Colab.
 
 # References:
-https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/#ProblemStatement
-https://github.com/ThilinaRajapakse/simpletransformers
+https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/#ProblemStatement  
+https://github.com/ThilinaRajapakse/simpletransformers  
 https://colab.research.google.com/notebooks/intro.ipynb#recent=true
