@@ -1,24 +1,24 @@
-# TITLE:
-## Team Members:
-## Date:
+# TITLE: Updates
+## Team Members: Jeffrey Wang
+## Date: 12/5/2020
 
 # Project Description
 ## Probelm Statement and Motivation
-This should be a brief and self-contained decription of the problem that your project aims to solve and what motivated you to solve this problem.
+I think sentiment analysis is a really interesting task. I've been really interested in NLP and the recent rise in transformers. I also think that social media platforms can do a lot more to flag comments, and the use of AI could definitely help.
 
 ## Introduction and Description of Data
-Description of relevant knowledge. Why is this problem important? Why is it challenging? Introduce the motivations for the project question and how that question was defined through preliminary EDA.
+~30000 tweets labeled as hate, offensive, or neither
 
 ## Literature Review/Related Work 
-This could include noting any key papers, texts, or websites that you have used to develop your modeling approach, as well as what others have done on this problem in the past. You must properly credit sources.
+Automated Hate Speech Detection and the Problem of Offensive Language (ref 2), is the paper of interest. In the March 2017 paper, Davidson et al. creates a tweet dataset and gets people to label it. They create a model with an f1 score of .9
 
-## Interim Results
-If you have some interim results or new findings, you can include them here.
+I plan on using Google's Electra (ref1) with weights from Huggingface, and using simpletransformers library to reproduce their experiment with their dataset, except with Electra model. I want to compare results and also add entertainment value by using twitter API to allow users to run sentiment analysis on custom username tweets.
 
 # Project Progress
-This could include the __revised__ major timeline and milestones of your project as well as requirements of computing and storage resources. 
-
-This may also include a brief summary of your team's progress on the project and a candid reflection of what's gone wrong and what's gone right, and what efforts that your team have taken or are going to takea to overcome any issue that comes out during the course of the project.
+Original Plan was to build a voila website and host on binder, but because of time constraints, I plan on just using a colab notebook. I'll host files from my gdrive.
 
 # References:
-This could include the revised key papers, texts, or websites that you may use to develop your project.
+1. https://arxiv.org/abs/2003.10555
+2. https://arxiv.org/abs/1703.04009
+3. https://huggingface.co/models
+4. https://github.com/ThilinaRajapakse/simpletransformers
