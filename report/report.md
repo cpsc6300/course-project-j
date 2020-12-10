@@ -63,7 +63,8 @@ simpletransformers - https://github.com/ThilinaRajapakse/simpletransformers
 
 # Support Materials
 [Notebook](https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing)  
-final Report, proposal, interim are in reports file in repo 
+https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing  
+final Report, proposal, interim are in reports file in repo, notebook is in notebook file, also linked in readme.md
 imgs are in repo  
 
 # Declaration of academic integrity and responsibility
