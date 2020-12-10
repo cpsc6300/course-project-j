@@ -1,5 +1,3 @@
-
-
 # TITLE: Twitter Sentiment Analysis for Offensive Language and Hate
 ## Team Members: Jeffrey Wang
 ## Date: 12/10/2020
