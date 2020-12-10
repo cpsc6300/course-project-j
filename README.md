@@ -2,9 +2,9 @@
 ## Team Members: Jeffrey Wang
 ## Date: 12/10/2020
 
-# Website
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing)
-
+# Website + Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing)  
+https://cpsc6300.github.io/course-project-j/
 # Problem Statement and Motivation
 Social media gets a lot of criticism about not taking down offensive or hateful comments. So initially I wanted to see how effective ML could be in classification of tweets. I found a [paper](https://arxiv.org/pdf/1703.04009) by Davidson et al. from Cornell, that used a logistic regression model with l2 regularization reaching an f1 score of 0.9 on a dataset that they procurred. I've worked a bit with [transformer](https://arxiv.org/abs/1706.03762) models, so I wanted to train [ELECTRA](https://arxiv.org/abs/2003.10555) on their paper and see how it goes.
 
