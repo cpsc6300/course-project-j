@@ -38,7 +38,7 @@ Electra:
 F1: 0.95  
 Accuracy: 0.98  
 Matrix:  
-![Electra's Confusion Matrix](https://github.com/cpsc6300/course-project-j/blob/main/electra_matrix)
+![Electra's Confusion Matrix](https://github.com/cpsc6300/course-project-j/blob/main/electra_matrix-redo)
 
 I think the results are pretty good, Electra seems very good at separating the tweets things in a binary way. It didn't do well in distinguishing between offensive and hateful comments in the dataset. But looking through the data, I thought there was a massive amount of grey area between offensive and hateful labeled data. So I don't think it's a bad thing that Electra didn't pick up the noise. I actually think it's probably a good thing and a sign that Electra is not overfitting, which the original authors may have had. I hope my work helps convince people that AI is ready to play a role in online moderation.
 
