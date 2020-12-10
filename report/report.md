@@ -31,17 +31,16 @@ I preprocessed the data so that the tweets and labels would be the only input an
 
 # Project Trajectory, Results, and Interpretation 
 
-Next, show your results. How well does your model and/or implementation perform? Did you meet your goals?
 Paper:  
 F1: 0.9  
 Matrix:  
-![Original Paper Confusion Matrix](https://github.com/cpsc6300/course-project-j/paper_matrix.jpg)
+![Original Paper Confusion Matrix](https://github.com/cpsc6300/course-project-j/blob/main/paper_matrix.jpg)
 
 Electra:  
 F1: 0.95  
 Accuracy: 0.98  
-Matrix: 
-![Electra's Confusion Matrix](https://github.com/cpsc6300/course-project-j/electra_matrix.png)
+Matrix:  
+![Electra's Confusion Matrix](https://github.com/cpsc6300/course-project-j/blob/main/electra_matrix)
 
 I think the results are pretty good, Electra seems very good at separating the tweets things in a binary way. It didn't do well in distinguishing between offensive and hateful comments in the dataset. But looking through the data, I thought there was a massive amount of grey area between offensive and hateful labeled data. So I don't think it's a bad thing that Electra didn't pick up the noise. I actually think it's probably a good thing and a sign that Electra is not overfitting, which the original authors may have had. I hope my work helps convince people that AI is ready to play a role in online moderation.
 
@@ -53,19 +52,19 @@ So I left it on the colab that I trained it on and hosted the weights on my gdri
 I was very impressed by Electra's ability to distinguish between Offensive/Hate tweets and neither tweets. Some things that could be done are to process the tweets more, add different fields like username, their history etc, add context-surrounding messages, use image annotation to extract image sentiment, the use of different networks working together, obtaining a more appropriate and larger dataset-scraping from many social media sites and forums and using a self-supervised approach to training. I think the biggest problem was the dataset which used anonymous human lablers. An AI model should be able to cluster the sentiments without human lables for every data point. After the training, it can be finetuned with a very high quality dataset made by experts. But the entire dataset was not well labled. Electra was trained in a self-supervised manner and I think a quality finetuning dataset is very important.  
 
 # References:
-[Automated Hate Speech Detection and the Problem of Offensive Language](https://arxiv.org/pdf/1703.04009)  
-[Attention Is All You Need](https://arxiv.org/abs/1706.03762)   
-[BERT](https://arxiv.org/abs/1810.04805)  
-[ELECTRA](https://arxiv.org/abs/2003.10555)  
-[GLUE](https://arxiv.org/abs/1804.07461)  
-[GLUE leaderboard](https://gluebenchmark.com/leaderboard)  
-[HuggingFace](https://huggingface.co/models)  
-[simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers)  
+Automated Hate Speech Detection and the Problem of Offensive Language - https://arxiv.org/pdf/1703.04009  
+Attention Is All You Need - https://arxiv.org/abs/1706.03762  
+BERT - https://arxiv.org/abs/1810.04805  
+ELECTRA - https://arxiv.org/abs/2003.10555  
+GLUE - https://arxiv.org/abs/1804.07461  
+GLUE leaderboard - https://gluebenchmark.com/leaderboard  
+HuggingFace - https://huggingface.co/models  
+simpletransformers - https://github.com/ThilinaRajapakse/simpletransformers  
 
 # Support Materials
-[Notebook](https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing)
-final Report, proposal, interim are in reports file
-imgs are in repo
+[Notebook](https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing)  
+final Report, proposal, interim are in reports file in repo 
+imgs are in repo  
 
 # Declaration of academic integrity and responsibility
 
