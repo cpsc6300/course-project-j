@@ -1,8 +1,8 @@
-# TITLE: Twitter Sentiment Analysis for Offensive Language and Hate
-## Team Members: Jeffrey Wang
-## Date: 12/10/2020
+# Twitter Sentiment Analysis for Offensive Language and Hate
+## Jeffrey Wang
+## 12/10/2020
 
-# Notebook
+# Notebook/Interactive Demo
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing)
 
 # Problem Statement and Motivation
@@ -63,8 +63,7 @@ HuggingFace - https://huggingface.co/models
 simpletransformers - https://github.com/ThilinaRajapakse/simpletransformers  
 
 # Support Materials
-[Notebook](https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing)  
-https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing  
+[Notebook](https://colab.research.google.com/drive/19AA-eUfYYE9YZLhuPE0LWeKPy7aqNRq5?usp=sharing) with training steps. With a widget to run the model through Trump and Obama tweets, and also through custom twitter handles.
 final Report, proposal, interim are in reports file in repo, notebook is in notebook file, also linked in readme.md
 imgs are in repo  
 
